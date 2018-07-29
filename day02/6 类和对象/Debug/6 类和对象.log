@@ -1,0 +1,5 @@
+﻿  6 类和对象.cpp
+h:\cpplearn\day02\6 类和对象\6 类和对象.cpp(3): warning C4603: “_CRT_SECURE_NO_WARNINGS”: 未定义宏或在预编译头使用后定义发生改变
+  h:\cpplearn\day02\6 类和对象\6 类和对象.cpp(3): note: 将宏添加到预编译头中，而不是在此处定义
+  h:\cpplearn\day02\6 类和对象\6 类和对象.cpp(4): note: 使用预编译头
+  6 类和对象.vcxproj -> H:\cpplearn\day02\Debug\6 类和对象.exe
