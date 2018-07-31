@@ -1,0 +1,4 @@
+﻿  7 有缘类.cpp
+h:\cpplearn\day04\7 有缘类\7 有缘类.cpp(24): error C2079: “bb”使用未定义的 class“B”
+h:\cpplearn\day04\7 有缘类\7 有缘类.cpp(25): error C2228: “.m_b”的左边必须有类/结构/联合
+  h:\cpplearn\day04\7 有缘类\7 有缘类.cpp(25): note: 类型是“int”
