@@ -1,0 +1,15 @@
+﻿  3 继承的方式.cpp
+h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(54): error C2247: “Parent::pub”不可访问，因为“Child3”使用“private”从“Parent”继承
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(10): note: 参见“Parent::pub”的声明
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(40): note: 参见“Child3”的声明
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(8): note: 参见“Parent”的声明
+h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(55): error C2248: “Parent::pro”: 无法访问 无法访问的 成员(在“Parent”类中声明)
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(12): note: 参见“Parent::pro”的声明
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(8): note: 参见“Parent”的声明
+h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(79): error C2247: “Parent::pub”不可访问，因为“Child3”使用“private”从“Parent”继承
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(10): note: 参见“Parent::pub”的声明
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(40): note: 参见“Child3”的声明
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(8): note: 参见“Parent”的声明
+h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(80): error C2248: “Parent::pro”: 无法访问 protected 成员(在“Parent”类中声明)
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(12): note: 参见“Parent::pro”的声明
+  h:\cpplearn\day06\3 继承的方式\3 继承的方式.cpp(8): note: 参见“Parent”的声明
