@@ -1,0 +1,3 @@
+﻿  06 异常类型和异常生命周期.cpp
+h:\cpplearn\day10\01 myarray\06 异常类型和异常生命周期\06 异常类型和异常生命周期.cpp(45): warning C4101: “e”: 未引用的局部变量
+  06 异常类型和异常生命周期.vcxproj -> H:\cpplearn\day10\01 MyArray\Debug\06 异常类型和异常生命周期.exe
