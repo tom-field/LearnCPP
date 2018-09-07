@@ -1,7 +1,0 @@
-﻿  05 异常接口声明.cpp
-h:\cpplearn\day10\01 myarray\05 异常接口声明\05 异常接口声明.cpp(10): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
-h:\cpplearn\day10\01 myarray\05 异常接口声明\05 异常接口声明.cpp(19): warning C4297: “func2”: 假定函数不引发异常，但确实发生了
-  h:\cpplearn\day10\01 myarray\05 异常接口声明\05 异常接口声明.cpp(19): note: 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
-h:\cpplearn\day10\01 myarray\05 异常接口声明\05 异常接口声明.cpp(28): warning C4101: “e”: 未引用的局部变量
-h:\cpplearn\day10\01 myarray\05 异常接口声明\05 异常接口声明.cpp(32): warning C4101: “e”: 未引用的局部变量
-  05 异常接口声明.vcxproj -> H:\cpplearn\day10\01 MyArray\Debug\05 异常接口声明.exe
