@@ -67,7 +67,6 @@ void test02()
 //string& append(int n, char c);//在当前字符串结尾添加n个字符c
 void test03()
 {
-
 }
 
 //int find(const string& str, int pos = 0) const; //查找str第一次出现位置,从pos开始查找
@@ -82,7 +81,6 @@ void test03()
 //string& replace(int pos, int n, const char* s); //替换从pos开始的n个字符为字符串s
 void test04()
 {
-	
 }
 
 /*
@@ -94,22 +92,19 @@ compare函数在>时返回 1，<时返回 -1，==时返回 0。
 //int compare(const char *s) const;//与字符串s比较
 void test05()
 {
-
 }
 
 //string substr(int pos = 0, int n = npos) const;//返回由pos开始的n个字符组成的字符串
 void test06()
 {
-
 }
 
 //string& insert(int pos, const char* s); //插入字符串
 //string& insert(int pos, const string& str); //插入字符串
 //string& insert(int pos, int n, char c);//在指定位置插入n个字符c
-//string& erase(int pos, int n = npos);//删除从Pos开始的n个字符 
+//string& erase(int pos, int n = npos);//删除从Pos开始的n个字符
 void test07()
 {
-
 }
 
 //string和c-style字符串转换
@@ -118,7 +113,7 @@ void test08()
 	//string 转 char*
 	string str1 = "hello world";
 	const char* cstr = str1.c_str();
-	//char* 转 string 
+	//char* 转 string
 	const char *s = "nice to meet you";
 	string str(s);
 
@@ -129,7 +124,6 @@ void test08()
 //大小写转换
 void test09()
 {
-	
 }
 
 int main(void)

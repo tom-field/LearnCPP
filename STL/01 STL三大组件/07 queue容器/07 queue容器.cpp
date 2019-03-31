@@ -15,7 +15,6 @@ using namespace std;
 //queue(const queue &que);//拷贝构造函数
 void test01()
 {
-
 }
 
 //3.5.3.2 queue存取、插入和删除操作
@@ -38,7 +37,6 @@ void test02()
 //queue& operator=(const queue &que);//重载等号操作符
 void test03()
 {
-
 }
 
 //3.5.3.4 queue大小操作

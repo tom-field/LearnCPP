@@ -42,12 +42,12 @@ void test02() {
 	{
 		cout << v[i] << endl;
 	}
-	
+
 	vector<int>::iterator itBegin = v.begin();
 	vector<int>::iterator itEnd = v.end();       //迭代器的最后一个位置的下一个位置
 	cout << *itBegin << endl;
 	//cout << *itEnd << endl;          //out of range vector iterator
-	
+
 	cout << "利用迭代器遍历" << endl;
 	/*while (itBegin != itEnd)
 	{
@@ -66,7 +66,6 @@ void test02() {
 
 	cout << v.size() << endl;
 	cout << v.capacity() << endl;
-
 }
 
 //操作自定义数据类型
@@ -80,7 +79,6 @@ public:
 	string m_Name;
 	int m_age;
 private:
-
 };
 
 Person::Person(string name, int age)
@@ -103,7 +101,7 @@ void test03()
 	v.push_back(p2);
 	v.push_back(p3);
 	cout << "遍历" << endl;
-	for (vector<Person>::iterator  it = v.begin(); it != v.end(); it++)
+	for (vector<Person>::iterator it = v.begin(); it != v.end(); it++)
 	{
 		cout << "姓名:" << (*it).m_Name << "年龄:" << it->m_age << endl;
 	}
@@ -121,7 +119,7 @@ void test04()
 	cout << "遍历" << endl;
 	for (vector<Person *>::iterator it = v.begin(); it != v.end(); it++)
 	{
-		//  
+		//
 		cout << "姓名::" << (*it)->m_Name << "年龄:" << (*it)->m_age << endl;
 	}
 }

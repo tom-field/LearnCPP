@@ -38,7 +38,7 @@ void test01()
 void printList(list<int> &L)
 {
 	cout << "正序: ";
-	for (list<int>::iterator it = L.begin(); it != L.end() ; it++)
+	for (list<int>::iterator it = L.begin(); it != L.end(); it++)
 	{
 		cout << *it << "  ";
 	}
@@ -69,7 +69,6 @@ void test02()
 	printList(L4);
 }
 
-
 //3.6.4.2 list数据元素插入和删除操作
 //push_back(elem);//在容器尾部加入一个元素
 //pop_back();//删除容器中最后一个元素
@@ -92,10 +91,10 @@ void test03()
 	L.insert(++L.begin(), 50);
 	cout << "第二个位置插入1个50" << endl;
 	printList(L);
-	L.insert(++L.begin(),3, 60);
+	L.insert(++L.begin(), 3, 60);
 	cout << "第二个位置插入3个60" << endl;
 	printList(L);
-	L.insert(L.begin(),L.begin(), L.end());
+	L.insert(L.begin(), L.begin(), L.end());
 	cout << "拷贝L的数据,从头插到尾" << endl;
 	printList(L);
 	L.remove(10);
@@ -183,7 +182,6 @@ void test05()
 	printList(L3);
 	cout << "L4:";
 	printList(L4);
-
 }
 
 //3.6.4.5 list数据的存取
@@ -214,14 +212,13 @@ void test06()
 	L.sort(myCompare);
 	cout << "自定义从大到小排序" << endl;
 	printList(L);
-	
 }
 
 //自定义数据类型排序
 class Person
 {
 public:
-	Person(string name, int age,int height)
+	Person(string name, int age, int height)
 	{
 		this->name = name;
 		this->age = age;
@@ -251,8 +248,8 @@ void printPerson(list<Person> LP)
 }
 
 //原来传不传引用都能够正常排序
-//bool myComparePerson(Person p1,Person p2) 
-bool myComparePerson(Person &p1,Person &p2) 
+//bool myComparePerson(Person p1,Person p2)
+bool myComparePerson(Person &p1, Person &p2)
 {
 	//只按年龄
 	//return p1.age > p2.age;
@@ -268,7 +265,7 @@ bool myComparePerson(Person &p1,Person &p2)
 
 void test07()
 {
-	Person p1("小明", 18,189);
+	Person p1("小明", 18, 189);
 	Person p2("小✿", 16, 165);
 	Person p3("小张", 18, 170);
 	Person p4("小芳", 20, 170);
@@ -293,8 +290,8 @@ void test08() {
 	L.push_back(p3);
 	L.push_back(p4);
 
-	L.remove(p4); 
-	//没有找到接受“Person”类型的左操作数的运算符(或没有可接受的转换) 
+	L.remove(p4);
+	//没有找到接受“Person”类型的左操作数的运算符(或没有可接受的转换)
 	//list 1493行 if (*_First == _Val) 要重载 == 操作符
 	printPerson(L);
 }

@@ -45,7 +45,7 @@ void test02()
 	vector<int> v2(v1.begin(), v1.end());
 	vector<int> v3(10, 100);
 	vector<int> v4(v3);
-	
+
 	vectorPrint(v0);
 	vectorPrint(v1);
 	vectorPrint(v2);
@@ -98,7 +98,7 @@ void test03()
 	}
 	cout << "v9的容量:" << v9.capacity() << endl;
 	cout << "v的大小:" << v9.size() << endl;
-	
+
 	v9.resize(3);
 
 	cout << "v9的容量:" << v9.capacity() << endl;
@@ -108,7 +108,6 @@ void test03()
 
 	cout << "v9的容量:" << v9.capacity() << endl;
 	cout << "v的大小:" << v9.size() << endl;
-
 
 	vectorPrint(v4);
 	vectorPrint(v5);
@@ -126,7 +125,6 @@ reserve(int len);//容器预留len个元素长度，预留位置不初始化，�
 */
 void test04()
 {
-
 }
 
 /*
@@ -138,7 +136,6 @@ back();//返回容器中最后一个数据元素
 */
 void test05()
 {
-	
 }
 
 /*
@@ -152,7 +149,6 @@ clear();//删除容器中所有元素
 */
 void test06()
 {
-	
 }
 
 void test07()
@@ -170,7 +166,7 @@ void test07()
 		cout << *it << " ";
 	}
 	cout << endl;
-	
+
 	//vector迭代器是随机访问的迭代器 支持跳跃式访问
 	vector<int>::iterator it = v.begin();
 	it += 9;

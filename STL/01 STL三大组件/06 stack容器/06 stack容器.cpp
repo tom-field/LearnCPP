@@ -10,19 +10,16 @@
 
 using namespace std;
 
-
-//stack<T> stkT;//stack采用模板类实现， stack对象的默认构造形式： 
+//stack<T> stkT;//stack采用模板类实现， stack对象的默认构造形式：
 //stack(const stack &stk);//拷贝构造函数
 void test01()
 {
-	
 }
 
 //3.4.3.2 stack赋值操作
 //stack& operator=(const stack &stk);//重载等号操作符
 void test02()
 {
-
 }
 
 //3.4.3.3 stack数据存取操作
@@ -31,7 +28,6 @@ void test02()
 //top();//返回栈顶元素
 void test03()
 {
-
 }
 
 //3.4.3.4 stack大小操作

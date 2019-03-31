@@ -29,9 +29,8 @@ public:
 		this->m_name = name;
 		this->m_score = 0;
 	};
-	~Person() 
+	~Person()
 	{
-
 	};
 	string m_name;
 	int m_score;
@@ -50,7 +49,7 @@ void createPlayers(vector<Person> &Persons) {
 // 评委打分
 void gradePlayers(vector<Person> &Persons) {
 	//创建1个deque容器
-	for (vector<Person>::iterator it = Persons.begin(); it !=  Persons.end(); it++)
+	for (vector<Person>::iterator it = Persons.begin(); it != Persons.end(); it++)
 	{
 		deque<int> scores;
 		//评委打分
